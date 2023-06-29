@@ -8,13 +8,6 @@ export default function Home() {
       <div className="flex flex-col">
         <button
           onClick={() => {
-            router.push("/home");
-          }}
-        >
-          Home sayfasına git!
-        </button>
-        <button
-          onClick={() => {
             router.push("/about");
           }}
         >
@@ -26,6 +19,13 @@ export default function Home() {
           }}
         >
           Profile sayfasına git!
+        </button>
+        <button
+          onClick={() => {
+            router.push("/blog");
+          }}
+        >
+          Blog sayfasına git!
         </button>
       </div>
     </>
