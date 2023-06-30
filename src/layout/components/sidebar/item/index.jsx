@@ -1,4 +1,5 @@
 "use-client";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
 
@@ -7,16 +8,10 @@ export default function MenuItem({ item }) {
   return (
     <div className="px-4 py-1 ">
       <section>
-        <div
-          className="flex flex-row justify-normal cursor-pointer"
-          onClick={() => {
-            router.push(item.path);
-          }}
-        >
-          <div className="pt-2">{item.icon}</div>
-          <p className="font-light text-lg pl-4" href={item.path}>
+        <div className="flex flex-row justify-normal cursor-pointer">
+          <Link className="font-light text-lg pl-4" href={item.path}>
             {item.title}
-          </p>
+          </Link>
         </div>
       </section>
     </div>
