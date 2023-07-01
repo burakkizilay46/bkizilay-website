@@ -3,8 +3,11 @@ import Image from "next/image";
 export default function Profile() {
   return (
     <div>
-      <div className="flex flex-row">
+      <div className="flex flex-col  place-items-center">
+        <h1 className="text-3xl place-items-start">Benim Hakkımda</h1>
+        <br />
         <Image
+          className="rounded-2xl"
           src={"/about/mee.jpg"}
           width={256}
           height={256}
@@ -12,9 +15,7 @@ export default function Profile() {
         />
         <br />
         <div className="px-10 w-3/4 flex flex-col">
-          <h1 className="text-3xl">Benim Hakkımda</h1>
-          <br />
-          <p className=" font-light text-lg">
+          <p className=" font-light text-sm/12">
             5 yaşından itibaren bilgisayarla çok fazla vakit geçiren, lise
             yıllarında yazılım alanında bir şeyler yapmaya çalışan ve
             üniversitede yazılım mühendisliği bölümünü kazandıktan sonra

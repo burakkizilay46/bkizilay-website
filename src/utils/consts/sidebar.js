@@ -12,10 +12,6 @@ export const SIDEBAR_MENU = [
     title: "Blog",
   },
   {
-    path: "/profile",
-    title: "Profile",
-  },
-  {
     path: "/contact",
     title: "Contact",
   },
