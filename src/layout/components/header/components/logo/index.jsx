@@ -4,10 +4,10 @@ import React from "react";
 export default function Logo() {
   return (
     <>
-      <div className="pt-2 ">
+      <div className="pt-2 px-4 ">
         <Link
           href="/"
-          className="text-2xl text-primary transition-colors dark:text-white px-4"
+          className="text-2xl text-primary transition-colors dark:text-white"
         >
           ./burakkizilay
         </Link>
