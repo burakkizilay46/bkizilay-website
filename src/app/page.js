@@ -23,7 +23,7 @@ export default function Home() {
           <p className=" text-2xl font-extralight text-grey-100">
             Software Developer
           </p>
-          <div className="pt-8 mx-56 text-sm/[24px] ">
+          <div className="pt-8 w-6/12 text-sm/[24px] ">
             <p>Hey, I’m Burak Kızılay! 👋</p>
             <p>
               I’m a software engineer working as an mobile and front end at
