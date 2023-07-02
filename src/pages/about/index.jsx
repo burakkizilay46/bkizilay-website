@@ -8,7 +8,7 @@ export default function Profile() {
         <br />
         <Image
           className="rounded-2xl"
-          src={"/about/mee.jpg"}
+          src={"/about/me.jpeg"}
           width={256}
           height={256}
           alt="burakkizilay"
