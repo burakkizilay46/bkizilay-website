@@ -11,7 +11,7 @@ export default function Home() {
           WELCOME TO MY PERSONAL WEBSITE!
         </h1>
         <div className="flex flex-col px-4 pt-8 place-items-center">
-          <h1 className="text-4xl">Selam Urfi Yazıcı</h1>
+          <h1 className="text-4xl">Selam Urfi Yazıcı!</h1>
           <Image
             className="rounded-full hover:border-dotted"
             src={"/home/developer.jpeg"}
