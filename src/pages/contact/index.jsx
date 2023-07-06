@@ -9,7 +9,7 @@ export default function Contact() {
         📞 How can you contact me?
       </h1>
       <div className="grid  justify-center place-items-center">
-        <div className="px-6 pt-6  grid grid-cols-2 grid-rows-2 grid-flow-col gap-4">
+        <div className="px-6 pt-6  grid grid-cols-3 grid-rows-2 grid-flow-col gap-4">
           <div className="pb-4 cursor-pointer">
             <a
               href="mailto:kizilay4696@gmail.com"
@@ -33,13 +33,18 @@ export default function Contact() {
           />
           <ContactCard
             title={"Twitter"}
-            text={"devburakkizilay"}
+            text={"@devburakkizilay"}
             url={"https://twitter.com/devburakkizilay"}
           />
           <ContactCard
             title={"Instagram"}
-            text={"burakkkizilay"}
+            text={"@burakkkizilay"}
             url={"https://www.instagram.com/burakkkizilay/"}
+          />
+          <ContactCard
+            title={"Threads"}
+            text={"@burakkkizilay"}
+            url={"https://www.threads.net/@burakkkizilay"}
           />
         </div>
       </div>
